@@ -18,7 +18,7 @@
 }
 
 .overlay{
-    background-image: url('media/imgs/overlay.png');
+    background-image: url('./media/imgs/overlay.png');
     background-repeat: repeat;
     width: 100%;
     height: 100%;
