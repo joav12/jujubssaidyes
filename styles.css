@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    Cores bacanudas
+    verde escuro: #566631
+    verde claro: #9eb95d
+    fundinho bege: #fff3c2
+*/
+
+.site-container{
+    width: 100%;
+    min-height: 100vh;
+    color: #9eb95d;
+}
+
+.overlay{
+    background-image: url('/media/imgs/overlay.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.entrada-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('./media/videos/videojuju.mp4');
+
+    .video-cointaner{
+        width: 100%;
+         
+        #filtro1{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(0deg,rgb(255, 243, 194) 0%, rgb(255, 243, 194) 10%, rgba(255, 255, 255, 0) 20%);
+        }
+
+        #videoEntrada{
+            width: 100%;
+        }
+    }
+
+    .titulo-textinho-container{
+        position: absolute;
+        top: 20px;
+        z-index: 10;
+
+        .titulo-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            h1{
+                font-size: 15rem;
+                font-family: "Luxurious Script", cursive;
+                font-weight: bold;
+                font-style: normal;
+                letter-spacing: -5px;
+            }
+    
+            .julia-and-container{
+                display: flex;
+                align-items: center;
+            }
+    
+            .conection-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid #9eb95d;
+                border-radius: 50%;
+                width: 150px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 3rem;
+                height: 70px;
+                margin-left: -25px;
+                margin-top: 145px;
+                font-style: italic;
+            }
+    
+            #joao-titulo{
+                margin-top: -120px;
+                margin-left: 158px;
+            }
+        }
+
+        .textinho-entrada{
+            font-family: 'Aileron', sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
+        }
+    }
+}
+
+.degrade-conexao{
+    width: 100%;
+    height: 200px;
+    background: #ffffff00;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(333deg,rgba(200, 104, 42, 1) 0%, rgba(255, 243, 194, 1) 39%, rgba(255, 243, 194, 1) 100%);
+}
+
+.fundo-colorido-container{
+    color: #566631;
+    background-color: #fff3c2;
+    margin-top: -5px;
+
+    .estilinho{
+        background: #AD5C45;
+        background: linear-gradient(35deg, rgb(200, 104, 42) 0%, rgba(87, 199, 133, 0) 22%, rgba(109, 181, 115, 0) 75%, rgba(173, 92, 69, 1) 100%);
+    }
+}
+
+.sobre-container, .lista-compras-container{
+    padding: 20px;
+
+}
+
+.sobre-container{
+    .titulo-sobre{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+    }
+
+    .textinho-sobre{
+        font-family: 'Aileron', sans-serif;
+        font-size: 20px;
+        width: 400px;
+        padding-left: 20px;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .entrada-container{
+        .video-cointaner{
+            width: 150%;
+        }
+
+        .titulo-textinho-container{
+            top: -10px;
+    
+            .titulo-container{
+        
+                h1{ font-size: 7rem; }
+        
+                .conection-container{
+                    width: 70px;
+                    font-size: 2rem;
+                    height: 40px;
+                    margin-left: -22px;
+                    margin-top: 78px;
+                }
+        
+                #joao-titulo{
+                    margin-top: -50px;
+                    margin-left: 40px;
+                }
+            }
+    
+            .textinho-entrada{
+                margin-top: -20px;
+                padding: 20px;
+                font-size: 1rem;
+            }
+        }
+    }
+
+}
