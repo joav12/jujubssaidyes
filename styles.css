@@ -125,7 +125,7 @@ body{ position: relative; }
 
     .estilinho{
         background: #AD5C45;
-        background: linear-gradient(342deg,rgba(173, 92, 69, 1) 2%, rgba(255, 243, 194, 0.63) 32%, rgba(255, 243, 194, 0) 100%);
+        background: linear-gradient(35deg, rgb(200, 104, 42) 0%, rgba(87, 199, 133, 0) 22%, rgba(109, 181, 115, 0) 75%, rgba(173, 92, 69, 1) 100%);
     }
 }
 
