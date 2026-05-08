@@ -14,7 +14,7 @@ body{ position: relative; }
 */
 
 .site-container{
-    color: #9eb95d;
+    color: #566631;
 }
 
 .overlay{
@@ -81,7 +81,7 @@ body{ position: relative; }
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border: 3px solid #9eb95d;
+                border: 3px solid #566631;
                 border-radius: 50%;
                 width: 150px;
                 font-family: 'Times New Roman', Times, serif;
@@ -103,7 +103,7 @@ body{ position: relative; }
             font-weight: bolder;
             text-align: center;
             font-size: 1.5rem;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
+            /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644); */
         }
     }
 }
@@ -221,7 +221,7 @@ body{ position: relative; }
         }
 
         .titulo-textinho-container{
-            top: -10px;
+            top: 5%;
     
             .titulo-container{
         
