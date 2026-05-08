@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+body{ position: relative; }
+
 /*
     Cores bacanudas
     verde escuro: #566631
@@ -12,17 +14,17 @@
 */
 
 .site-container{
-    width: 100%;
-    min-height: 100vh;
     color: #9eb95d;
 }
 
 .overlay{
     background-image: url('./media/imgs/overlay.png');
     background-repeat: repeat;
-    width: 100%;
-    /* min-height: 100vh; */
     position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 100;
     opacity: 0.5;
 }
