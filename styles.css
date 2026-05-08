@@ -262,7 +262,7 @@ body{ position: relative; }
         background: #ffffff00;
         position: relative;
         z-index: 2;
-        background: linear-gradient(270deg,rgba(173, 92, 69, 1) 2%, rgba(255, 243, 194, 1) 55%, rgba(255, 243, 194, 1) 100%);
+        background: linear-gradient(255deg,rgba(173, 92, 69, 1) 0%, rgba(255, 243, 194, 1) 100%, rgba(255, 243, 194, 1) 100%);
     }
 
     .sobre-container{
@@ -282,4 +282,9 @@ body{ position: relative; }
         }
     }
 
+    .lista-compras-container{
+        .lista-titulo-container{ font-size: 30px; }
+
+        .descricao-lista{ font-size: 20px; }
+    }
 }
